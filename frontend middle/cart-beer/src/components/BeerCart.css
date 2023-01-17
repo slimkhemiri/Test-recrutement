@@ -1,0 +1,54 @@
+.beer-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.beer-item {
+  width: 20%;
+  margin: 20px;
+  border-radius: 1%;
+  box-shadow: 0 8px 52px 0 rgba(31, 38, 135, 0.3);
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.beer-image {
+  width: 30%;
+  height: 220px;
+  margin-left: 90px;
+}
+
+.beer-image:hover {
+  cursor: pointer;
+}
+
+.beer-name {
+  justify-content: center;
+  text-align: center;
+  font-size: 17px;
+  color: #333;
+
+}
+
+.beer-volume {
+  font-size: 14px;
+  color: #666;
+  margin: 40px;
+}
+
+.add-to-cart-button {
+  font-size: 14px;
+  padding: 8px 20px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  border-radius: 1px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.add-to-cart-button:hover {
+  background-color: #666;
+}
